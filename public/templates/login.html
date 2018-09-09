@@ -1,0 +1,16 @@
+<center><h1>Login</h1></center>
+<center>
+	<form style="width:60%">
+		<div class="input-field">
+			<input type="text" id="usernameOrEmail" ng-model="usernameOrEmail" class="validate">
+			<label for="usernameOrEmail">Username or Email
+		</div>
+		<div class="input-field">
+			<input type="password" id="pwd" ng-model="password" class="validate">
+			<label for="pwd">Password</label>
+		</div>
+		<button class="btn waves-effect waves-light" type="submit" ng-click="login()">Login
+		<i class="material-icons right">send</i></button>
+	</form>
+	<a class="waves-effect" href='#!/signup' style="color:blue;"><b><u>Go to Signup page!</u></b></a>
+</center>

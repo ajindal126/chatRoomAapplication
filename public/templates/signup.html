@@ -1,0 +1,26 @@
+<center><h1>Signup</h1></center>
+<center>
+	<form style="width:60%;">
+		<div class='input-field'>
+			<input type="text" id="name" ng-model="user.name" class="validate">
+			<label for="name">Full Name</label>
+		</div>
+		<div class="input-field">
+			<input type="text" id="username" ng-model="user.username" class="validate">
+			<label for="username">Username</label>
+		</div>
+		<div class="input-field">
+			<input type="email" id="email" ng-model="user.email" class="validate">
+			<label for="email">Email</label>
+		</div>
+		<div class="input-field">
+			<input type="password" id="pwd" ng-model="user.password" class="validate">
+			<label for="pwd">Password</label>
+		</div>
+		<div>
+			<button class="btn waves-effect waves-light" type="submit" ng-click="createUser(user)">SignUp
+				<i class="material-icons right">send</i></button>
+		</div>
+	</form>	
+	<a class="waves-effect" href='#!/login' style="color:blue;"><b><u>Go to Login page!</u></b></a>
+</center>
